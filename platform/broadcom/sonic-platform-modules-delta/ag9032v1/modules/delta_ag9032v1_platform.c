@@ -9,9 +9,9 @@
 #include <linux/ctype.h>
 #include <linux/platform_device.h>
 #include <linux/i2c.h>
-#include <linux/i2c/pca954x.h>
+#include <linux/platform_data/pca954x.h>
 #include <linux/i2c-mux.h>
-#include <linux/i2c-mux-gpio.h>
+#include <linux/platform_data/i2c-mux-gpio.h>
 #include <linux/i2c/sff-8436.h>
 #include <linux/hwmon.h>
 #include <linux/hwmon-sysfs.h>
@@ -2551,4 +2551,4 @@ module_exit(delta_ag9032v1_platform_exit);
 
 MODULE_DESCRIPTION("DNI ag9032v1 Platform Support");
 MODULE_AUTHOR("Neal Tai <neal.tai@deltaww.com>");
-MODULE_LICENSE("GPL");    
+MODULE_LICENSE("GPL"); 
